@@ -1,6 +1,6 @@
-AI Chatbot — Fullstack App (React + FastAPI + Ollama)
+AI Chatbot — Fullstack Local App (React + FastAPI + Ollama)
 
-This is a full-stack AI chatbot built with React (frontend) and FastAPI (backend). Users type questions into a minimalist, dark-mode chat interface. Messages are sent to a Python backend via a REST API, which processes them using a locally hosted language model via Ollama (such as Mistral, Qwen, or LLaMA3).
+This is a full-stack local AI chatbot (eg. only works locally on my own computer) built with React (frontend) and FastAPI (backend). Users type questions into a minimalist, dark-mode chat interface. Messages are sent to a Python backend via a REST API, which processes them using a locally hosted language model via Ollama (such as Mistral, Qwen, or LLaMA3).
 The app was originally tested with OpenAI's API, but later transitioned to free, private local models using Ollama. It also supports optional cloud-based fallback via OpenRouter.
 
 Tech Stack:
